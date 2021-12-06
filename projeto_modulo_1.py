@@ -225,25 +225,6 @@ def mensagem_perdedor():
     else:
         mensagem_perdedor()
 
-def mensagem_vencedor():
-    print("***********************************************************************")
-    print("******* VOCÊ FEZ HISTÓRIA, LEVOU O SER HUMANO Á MARTE, PARÁBENS *******")
-    print("***********************************************************************\n")
-    time.sleep(5)
-    print("***********************************************************************")
-    print("******* DESEMBARQUE, ACENE PARA SEUS FÂS E ABRACE SEUS FAMILIARES *****")
-    print("***********************************************************************\n")
-    time.sleep(5)
-    print(" FIM DO JO...um momento!")
-    time.sleep(2)
-    print("QUE SER ESTRANHO É AQUELE SAINDO DA SUA NAVE??????\n")
-    time.sleep(3)
-    print("continua...\n")
-    time.sleep(1)
-    print("FIM DO JOGO")
-
-###################################### ANDAMENTO DO JOGO ###########################################
-
 def andamento_do_jogo():
     continua=abertura()
 
